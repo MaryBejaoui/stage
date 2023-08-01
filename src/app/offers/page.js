@@ -7,6 +7,7 @@ import { faPaintRoller } from "@fortawesome/free-solid-svg-icons";
 import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 const Offers = () => {
   return (
+    <>
     <section className="offers">
       <h2>What we Offer?</h2>
       <h3>
@@ -19,8 +20,8 @@ const Offers = () => {
           <FontAwesomeIcon
             icon={faComments}
             style={{
-              height: "40px",
-              width: "40px",
+              height: "30px",
+              width: "30px",
               color: "#BAAFD9",
               background: "#EAECFB",
               margin: "20px",
@@ -39,8 +40,8 @@ const Offers = () => {
           <FontAwesomeIcon
             icon={faShield}
             style={{
-              height: "40px",
-              width: "40px",
+              height: "30px",
+              width: "30px",
               color: "#BAAFD9",
               background: "#EAECFB",
               margin: "20px",
@@ -59,8 +60,8 @@ const Offers = () => {
           <FontAwesomeIcon
             icon={faHeadphones}
             style={{
-              height: "40px",
-              width: "40px",
+              height: "30px",
+              width: "30px",
               color: "#BAAFD9",
               background: "#EAECFB",
               margin: "20px",
@@ -81,8 +82,8 @@ const Offers = () => {
           <FontAwesomeIcon
             icon={faPaintRoller}
             style={{
-              height: "40px",
-              width: "40px",
+              height: "30px",
+              width: "30px",
               color: "#BAAFD9",
               background: "#EAECFB",
               margin: "20px",
@@ -100,8 +101,8 @@ const Offers = () => {
           <FontAwesomeIcon
             icon={faGlobe}
             style={{
-              height: "40px",
-              width: "40px",
+              height: "30px",
+              width: "30px",
               color: "#BAAFD9",
               background: "#EAECFB",
               margin: "20px",
@@ -119,8 +120,8 @@ const Offers = () => {
           <FontAwesomeIcon
             icon={faPenToSquare}
             style={{
-              height: "40px",
-              width: "40px",
+              height: "30px",
+              width: "30px",
               color: "#BAAFD9",
               background: "#EAECFB",
               margin: "20px",
@@ -135,7 +136,8 @@ const Offers = () => {
           </p>
         </div>
       </div><br></br>
-    </section>
+      </section>
+      </>
   );
 };
 export default Offers;
